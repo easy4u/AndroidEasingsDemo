@@ -3,15 +3,15 @@
 This project is to demostrate the effect of the interpolators provided by Android:
 
 - AccelerateInterpolator
-- FallbackLUTInterpolator
-- LinearInterpolator
+- AccelerateDecelerateInterpolator
+- AnticipateInterpolator
+- AnticipateOvershootInterpolator
 - BounceInterpolator
 - CycleInterpolator
 - DecelerateInterpolator
-- AccelerateDecelerateInterpolator
+- FallbackLUTInterpolator
+- LinearInterpolator
 - OvershootInterpolator
-- AnticipateInterpolator
-- AnticipateOvershootInterpolator
 
 ## Demo
 ![Demo Video](https://github.com/easy4u/AndroidEasingsDemo/blob/master/demo.gif)
