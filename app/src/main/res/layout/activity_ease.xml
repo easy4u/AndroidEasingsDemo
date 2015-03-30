@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="co.easy4u.easingsdemo.EaseActivity">
+
+    <co.easy4u.easingsdemo.DrawView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="280dp" />
+
+    <View
+        android:id="@+id/target"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignBottom="@+id/history"
+        android:layout_alignLeft="@+id/history"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/circle" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp" />
+
+</RelativeLayout>
